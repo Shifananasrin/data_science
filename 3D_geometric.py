@@ -38,3 +38,26 @@ def scalingMatrix(sx=1, sy=1, sz=1):
 
 matrix = scalingMatrix(2, 3, 4)
 print("scaling matrix \n",matrix)
+-------------------------------------------------
+ouput
+translation matrix 
+ [[1 0 0 1]
+ [0 1 0 1]
+ [0 0 1 1]
+ [0 0 0 1]]
+ 3d rotation matrix for rotating about y axis 
+ [[1 0 0 1]
+ [0 1 0 1]
+ [0 0 1 1]
+ [0 0 0 1]]
+3d rotation matrix for rotating about z axis
+ [[ 0.8660254 -0.5        0.         0.       ]
+ [ 0.5        0.8660254  0.         0.       ]
+ [ 0.         0.         1.         0.       ]
+ [ 0.         0.         0.         1.       ]]
+scaling matrix 
+ [[2 0 0 0]
+ [0 3 0 0]
+ [0 0 4 0]
+ [0 0 0 1]]
+
