@@ -1,0 +1,10 @@
+21.output
+Enter the value of k:> 5
+[1] 5
+> library(class)
+> pred=knn(food1,tomato1,food$FoodType,k)
+> cat("Predicted Food Type of Tomato:\n")
+Predicted Food Type of Tomato:
+> print(pred)
+[1] fruit
+Levels: fruit protein vegetable
